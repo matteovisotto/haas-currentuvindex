@@ -1,0 +1,21 @@
+{
+  "entity": {
+    "sensor": {
+      "current_uv_index": {
+        "name": "Indice UV Attuale"
+      },
+      "today_max_uv": {
+        "name": "Indice UV Massimo Oggi"
+      },
+      "today_min_uv": {
+        "name": "Indice UV Minimo Oggi"
+      },
+      "tomorrow_max_uv": {
+        "name": "Indice UV Massimo Domani"
+      },
+      "tomorrow_min_uv": {
+        "name": "Indice UV Minimo Domani"
+      }
+    }
+  }
+}

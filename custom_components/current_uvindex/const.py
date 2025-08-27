@@ -1,0 +1,1 @@
+DOMAIN = "current_uvindex"
