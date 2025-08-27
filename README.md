@@ -1,6 +1,6 @@
 # Current UV Index – Home Assistant Integration
 
-This custom integration provides **current and forecast UV index** from [open-meteo.com](https://open-meteo.com/).  
+This custom integration provides **current and forecast UV index** from [currentuvindex.com](https://currentuvindex.com/).  
 It creates a device with the following entities:
 
 - `sensor.current_uv_index`
