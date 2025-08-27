@@ -107,6 +107,7 @@ def _values_for_day(forecast_list, target_date: datetime):
 class CurrentUVIndexSensor(BaseUVSensor):
     def __init__(self, coordinator, entry):
         super().__init__(coordinator, entry, "current_uv_index", "current", "Current UV Index")
+        self._attr_icon = "mdi:white-balance-sunny"
 
     @property
     def native_value(self):
@@ -117,6 +118,7 @@ class TodayMaxUVSensor(BaseUVSensor):
     def __init__(self, coordinator, entry):
         super().__init__(coordinator, entry, "today_max_uv", "today_max", "Today Max UV Index")
         self._time = None
+        self._attr_icon = "mdi:weather-sunset-up"
 
     @property
     def native_value(self):
@@ -138,6 +140,7 @@ class TodayMinUVSensor(BaseUVSensor):
     def __init__(self, coordinator, entry):
         super().__init__(coordinator, entry, "today_min_uv", "today_min", "Today Min UV Index")
         self._time = None
+        self._attr_icon = "mdi:weather-sunset-down"
 
     @property
     def native_value(self):
@@ -161,6 +164,7 @@ class TomorrowMaxUVSensor(BaseUVSensor):
     def __init__(self, coordinator, entry):
         super().__init__(coordinator, entry, "tomorrow_max_uv", "tomorrow_max", "Tomorrow Max UV Index")
         self._time = None
+        self._attr_icon = "mdi:weather-sunset-up"
 
     @property
     def native_value(self):
@@ -183,6 +187,7 @@ class TomorrowMinUVSensor(BaseUVSensor):
     def __init__(self, coordinator, entry):
         super().__init__(coordinator, entry, "tomorrow_min_uv", "tomorrow_min", "Tomorrow Min UV Index")
         self._time = None
+        self._attr_icon = "mdi:weather-sunset-down"
 
     @property
     def native_value(self):
