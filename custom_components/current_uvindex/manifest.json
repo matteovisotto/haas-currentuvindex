@@ -1,7 +1,7 @@
 {
   "domain": "current_uvindex",
   "name": "Current UV Index",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "documentation": "https://github.com/matteovisotto/hass-currentuvindex",
   "issue_tracker": "https://github.com/yourgithub/hass-currentuvindex/issues",
   "requirements": [],
